@@ -54,3 +54,8 @@ a:active {
     color:darkblue;
 
 }
+
+a:focus {
+    color:aqua;
+    
+}
