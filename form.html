@@ -9,6 +9,7 @@
 </head>
 
 <body>
+   
     <div id="wrapper">
         
         <nav>
@@ -20,23 +21,23 @@
             </ul>
         </nav>
 
-        <header>
-        <h1>Reserve Your Room</h1>
-        <h2>Our Reservation policies</h2>
-        
-        </header>
-
         <section class="policies">
+            <h1>Reserve Your Room</h1>
+    
+            <h2>Our Reservation Policies</h2>
+    
             <ul>
-                <li>Check-in time</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Check-in Time after 3pm on</li>
+                <li>Check-Out time by 11pm or charges are incurred</li>
+                <li>Breakfast and afternoon tea/snacks included in cost</li>
+                <li>Proof of COVID-19 Vaccination required. Upload images below</li>
+                <li>50% Deposit at booking</li>
+                <li>Cancellation less than 72 hours ahead of check-in forfeit 50% of deposit</li>
             </ul>
+    
         </section>
 
+        
         <section class="reserve">
             <form method="post" name="reservation" data-netlify="true">
 
@@ -47,10 +48,50 @@
             </div>
 
             <div>
-                <label for="lastName">First Name:</label>
+                <label for="lastName">Last Name:</label>
                 <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
 
             </div>
+
+            <div>
+                <label for="Email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Email" required>
+
+            </div>
+
+            <div>
+                <label for="Phone">Phone:</label>
+                <input type="text" name="phone" id="phone" placeholder="Phone" required>
+
+            </div>
+
+            <div>
+                <label for="Start">Start Date:</label>
+                <input type="Date" id="start" name="start-date" value="date" 
+                min="2022-03-01" max="2030-12-31">
+                 
+            </div>
+
+            <div>
+                <label for="Start">End Date:</label>
+                <input type="Date" id="start" name="end-date" id="yes" value="yes"
+                 min="2022-03-01" max="2026-12-31">
+            </div>
+
+            <div class="dropdown">
+                <label for="Rooms">Select a room</label>
+                <select name="Rooms" id="Rooms">
+                    <option value="Single-King">Single King</option>
+                    <option value="Double-Queen">Double Queen</option>
+                    <option value="Deluxe-King">Deluxe King</option>
+                </select>
+                </div>
+        
+        </section>
+        
+       
+    
+        <section>
 
             <div>
                 <div>Ocean View (Additional Cost)</div>
@@ -62,9 +103,46 @@
 
             </div>
 
+            <div>
+                <label for="Guests">Guests (max 4 per room):</label>
+                <input type="number" id="quantity" min="1" max="4">
+                 
+ 
 
-            </form>
+
+            </div>
+
+            <div>
+                <label for="comment">Food allergies or additional comments</label>
+
+                <textarea id="comment" name="comment" rows="10" cols="40"></textarea>
+            </div>
+
+            <div>
+                <label for="agree">Agree to terms</label>
+                <input type="checkbox">
+            </div>
+        
+            <div>
+                <label for="password">Password</label>
+                <input type="password">
+            </div>
+
+            <div>
+            <button>Submit</button>
+            </div>
+            
+            <div>
+            <button>Reset</button>
+            </div>
         </section>
+
+        <footer>
+            <div>
+            <small>@2022 The York Inn</small>
+            </div>
+            <small>York, Maine</small>
+        </footer>
 
 
 
