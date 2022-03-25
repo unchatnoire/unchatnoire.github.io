@@ -59,6 +59,7 @@ nav a,
 footer a {
     text-decoration: none;
     color:#81B214
+
 }
 
 nav a:link,
@@ -71,6 +72,7 @@ nav a:active {
     text-decoration: none rgb(191,220,174) 3px;
     text-underline-offset: 8px;
     color: rgb(47,131,220);
+
 }
 
 nav a:hover::before {
@@ -80,4 +82,21 @@ nav a:hover::before {
 header p {
     font-size: 75%;
 }
+
+.assignments a:link,
+.assignments a:visited {
+    line-height: 1.4;
+
+}
+
+.assignments a:hover,
+.assignments a:active {
+    text-decoration:wavy rgba(241, 241, 232, 1)
+}
+
+.assignments li::before {
+    content: "\1f332 ";
+    font-size: 1.4rem;
+
+} 
 
