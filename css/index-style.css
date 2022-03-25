@@ -101,7 +101,7 @@ header p {
 }
 
 .assignments li::before {
-    content: "\1f332 ";
+    content: "\1f333 ";
     font-size: 1.4rem;
 
 } 
