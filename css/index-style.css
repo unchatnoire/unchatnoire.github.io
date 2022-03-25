@@ -1,0 +1,83 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #206A5D
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline rgba(129, 178, 20, .8) 4px;
+    text-underline-offset: 12px;
+    color: #81B214
+    
+}
+
+h1{
+    font-size: 2rem;
+
+}
+
+
+h2{
+    font-size: 1.75rem;
+
+}
+
+h2::before,
+h2::after {
+    content: "\1F60C ";
+
+}
+
+
+h3 {
+    font-size: 1.25rem;
+
+}
+
+nav li {
+    font-size: 1.25rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:400;
+    letter-spacing: 1px;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+nav,
+header {
+    text-align: center;
+}
+
+nav a,
+.assignments a,
+footer a {
+    text-decoration: none;
+    color:#81B214
+}
+
+nav a:link,
+nav a:visited {
+    line-height: 1.3;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: none rgb(191,220,174) 3px;
+    text-underline-offset: 8px;
+    color: rgb(47,131,220);
+}
+
+nav a:hover::before {
+    content: "\1F332";
+}
+
+header p {
+    font-size: 75%;
+}
+
