@@ -81,7 +81,12 @@ nav a:hover::before {
 
 header p {
     font-size: 75%;
-    
+
+}
+
+.assignments li{ 
+    list-style-type: none;
+
 }
 
 .assignments a:link,
@@ -100,4 +105,12 @@ header p {
     font-size: 1.4rem;
 
 } 
+
+footer {
+    line-height: 70%;
+    font-weight: 400;
+    color: rgba(129, 178, 20, .8)
+    
+
+}
 
