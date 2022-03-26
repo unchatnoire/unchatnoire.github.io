@@ -80,7 +80,8 @@ nav a:visited {
     list-style-type: none;
 }
 
-nav a:hover::before {
+nav a:hover::before,
+nav a:hover::after {
     content: "\1F332";
 }
 
@@ -93,7 +94,11 @@ nav a:active {
 
 }
 
+a:visited{ 
+    color:blueviolet;
 
+
+}
 
 
 
