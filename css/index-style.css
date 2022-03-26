@@ -41,11 +41,12 @@ h3 {
 }
 
 nav li {
+    list-style-type: none;
     font-size: 1.25rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight:400;
     letter-spacing: 1px;
-    list-style-type: none;
+    
     text-transform: uppercase;
 
 }
