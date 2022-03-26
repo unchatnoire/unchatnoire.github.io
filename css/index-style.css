@@ -51,6 +51,11 @@ nav li {
 
 }
 
+.assignments li{ 
+    list-style-type: none;
+
+}
+
 header p {
     font-size: 75%;
     color: #206A5D;
@@ -100,14 +105,9 @@ a:visited{
 
 }
 
-.assignments li{
-    list-style-type:none ;
-}
 
-.assignments li{ 
-    list-style-type: none;
 
-}
+
 
 .assignments a:link,
 .assignments a:visited {
