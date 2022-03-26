@@ -60,6 +60,7 @@ header p {
 nav,
 header {
     text-align: center;
+    list-style-type: none;
 }
 
 nav a,
