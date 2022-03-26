@@ -1,6 +1,7 @@
 html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
+    text-align: center;
     line-height: 1.2;
     color: #206A5D
 
@@ -81,6 +82,8 @@ nav a:hover::before {
 
 header p {
     font-size: 75%;
+    color: #206A5D;
+    text-align: center;
 
 }
 
