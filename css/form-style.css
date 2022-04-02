@@ -1,0 +1,134 @@
+body {
+    background-color: #023e8a;
+    background-image: url(/img/york-maine.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#wrapper {
+        width: 60%;
+        background-color: rgba(56, 100, 132, .6);
+        color: white;                                
+     padding: 2.5rem;                             
+     border-radius: 2.5rem;                   
+     margin: 0, auto;      
+ 
+} 
+
+ nav {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+nav li {
+    display: inline; 
+
+}
+
+nav a {
+    padding: 10px 14px;
+    background: color #00b0d3;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.policies {
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    padding-left: 3rem;
+}
+
+label,
+span {
+     display: inline-block;
+     width: 250px;
+     margin-right: 16px;     
+     text-align: right;
+}
+
+.radio label{
+    width: 10px;
+
+}
+
+span {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=number],
+input[type=file],
+input[type=checkbox],
+input[type=password] {   
+     padding: 8px;
+     margin: 6px 0;     
+     border: none;
+     border-radius: 8px;
+}
+
+textarea {
+    border-radius: 8px;
+
+}
+
+input[type=chekbox],
+input[type=radio] {
+    width: 12px;
+    height: 12px;
+    cursor:pointer;
+
+}
+
+button {
+    background-color: white;
+    color: rgb(109, 168, 236);       
+    padding: .5rem;       
+    margin-bottom: 1rem;  
+    border-radius: 8px; 
+    text-transform: uppercase;
+    font-size: .75rem;     
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+button[type=submit]{
+    margin-top: 1.5rem;
+
+}
+
+a:link {
+    color:blue;
+
+}
+
+
+a:visited{ 
+    color:blueviolet;
+
+
+}
+
+a:hover {
+    color:rgb(16, 33, 185);
+
+}
+
+a:active {
+    color:rgb(104, 104, 214);
+
+}
+
+a:focus {
+    color:aqua;
+}
