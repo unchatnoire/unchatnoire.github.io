@@ -172,3 +172,151 @@ footer ul {
     width: 30%;
 }
 
+@media (max-width: 360px) {
+
+    html {
+        line-height: 135%;
+
+    }
+    
+    nav a {
+        padding: 8px;
+        letter-spacing: normal;
+        font-size: .9rem;
+
+    }
+
+
+    nav ul {
+        padding-left: 8px;
+
+    }
+
+    main {
+        width: 90%;
+
+    }
+
+    h1 {
+        font-size: 1rem;
+        text-shadow: none;
+
+    }
+
+    h2 {
+        font-size: .8rem;
+
+    }
+
+    img {
+        float: none;
+        max-width: 90%;
+        margin-left: 15%;
+
+    }
+
+    .rate {
+        font-size: .9rem;
+
+    }
+
+    .ingredients,
+    .details,
+    .instructions,
+    .nutrients {
+        float: none;
+        width: 80%;
+
+    }
+
+    blockquote {
+        max-width: 86%;
+        max-height: 78%;
+
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 80%;
+        
+    }
+
+
+}
+
+@media (max-width: 810px) {
+    html {
+        line-height: 110%;
+
+    }
+    
+    nav a {
+        padding: 8px;
+        letter-spacing: normal;
+        font-size: .9rem;
+
+    }
+
+
+    nav ul {
+        padding-left: 10px;
+
+    }
+
+    main {
+        width: 90%;
+
+    }
+
+    h1 {
+        font-size: 1.35rem;
+        text-shadow: none;
+
+    }
+
+    h2 {
+        font-size: 1rem;
+
+    }
+
+    img {
+        float: none;
+        max-width: 90%;
+        margin-left: 25%;
+
+    }
+
+    .rate {
+        font-size: 1rem;
+
+    }
+
+    .ingredients,
+    .details,
+    .instructions,
+    .nutrients {
+        float: none;
+        width: 80%;
+
+    }
+
+    blockquote {
+        max-width: 90%;
+        max-height: 84%;
+
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 80%;
+        
+    }
+
+    
+}
