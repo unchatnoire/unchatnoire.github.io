@@ -129,7 +129,7 @@ header p {
 
 }
 
-@keyframes img {
+@keyframes fadeImg {
     0% {
         opacity:0;
 
