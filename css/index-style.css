@@ -1,17 +1,18 @@
 html {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
-    text-align: center;
     line-height: 1.2;
     color: #206A5D
 
 }
 
+
+
 h1,
 h2,
 h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline rgba(129, 178, 20, .8) 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:underline rgba(129, 178, 20, .8) 4px;
     text-underline-offset: 12px;
     color: #81B214
     
@@ -19,6 +20,25 @@ h3 {
 
 h1{
     font-size: 2rem;
+    opacity: 0%;
+
+}
+
+.fade-text {
+    animation: fadeText ease-in 4s 8s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeText {
+    0% {
+        opacity:0;
+
+    }
+
+    100% {
+        opacity:1;
+    }
 
 }
 
@@ -30,7 +50,7 @@ h2{
 
 h2::before,
 h2::after {
-    content: "\1F60C ";
+    content: "\1F60c ";
 
 }
 
@@ -40,32 +60,32 @@ h3 {
 
 }
 
+nav {
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color: #81B214;
+
+}
+
+nav ul {
+    padding: .25;
+
+}
+
 nav li {
-    list-style-type: none;
     font-size: 1.25rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight:400;
     letter-spacing: 1px;
-    
+    list-style-type: none;
     text-transform: uppercase;
 
 }
 
-.assignments ul{ 
-    list-style-type: none;
-
-}
-
-header p {
-    font-size: 75%;
-    color: #206A5D;
-    text-align: center;
-
-}
 nav,
 header {
     text-align: center;
-    list-style-type: none;
 }
 
 nav a,
@@ -76,39 +96,60 @@ footer a {
 
 }
 
+ul.assignments {
+    list-style-type: none;
+}
+
 
 
 nav a:link,
 nav a:visited {
     line-height: 1.3;
-    color: #8510D8;
-    list-style-type: none;
-}
-
-nav a:hover::before,
-nav a:hover::after {
-    content: "\1F332";
 }
 
 nav a:hover,
 nav a:active {
-
     text-decoration: none rgb(191,220,174) 3px;
     text-underline-offset: 8px;
     color: rgb(47,131,220);
 
 }
 
-a:visited{ 
-    color:blueviolet;
+nav a:hover::before {
+    content: "\1F332";
+}
 
+header p {
+    font-size: 75%;
+    color: #81B214;
+}
+
+.img {
+    animation: fadeImg ease 7s;
 
 }
 
+@keyframes img {
+    0% {
+        opacity:0;
 
+    }
 
+    100% {
+        opacity:1;
+    }
+}
 
+.assignments li{ 
+    list-style-type: none;
 
+}
+
+.assignments li::before {
+    content: "\1f332 ";
+    font-size: 1.4rem;
+
+} 
 .assignments a:link,
 .assignments a:visited {
     line-height: 1.4;
@@ -120,17 +161,22 @@ a:visited{
     text-decoration:wavy rgba(241, 241, 232, 1)
 }
 
-.assignments li::before {
-    content: "\1f332 ";
-    font-size: 1.4rem;
 
-} 
 
 footer {
     line-height: 70%;
-    font-weight: 500;
+    font-weight: 400;
+    position: relative;
     color: rgba(129, 178, 20, .8)
     
+
+}
+
+small {
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    padding: 20px 0;
 
 }
 
