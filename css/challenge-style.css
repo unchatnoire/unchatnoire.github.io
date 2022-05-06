@@ -1,31 +1,104 @@
+:root {
+    --font-size: 1vw;
+    --color-orange: #EB5E00;
+    --color-blue: #07e7f2;
+
+}
+
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5rem;
+    font-size: calc(var(--font-size) + 10px);
 
 }
 
 
 h1, h2, h3 {
-    color: #bb1b47;
+    color: var(--color-orange);
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
 h1 {
-    text-transform: capitalize;
-    font-size: 3rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
+    font-size: calc(var(--font-size) * 4);
+    background-image: radial-gradient(var(--color-blue), var(--color-orange));
+    background-clip: text;
+    color: transparent;
+
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: calc(var(--font-size) + 24px);
 
 }
 
 h3 {
     font-size: 1.5rem;
 
+}
+
+nav {
+    background-image: linear-gradient(40deg, #Eb5e00, #eb5);
+}
+
+nav ul::before {
+    content: "\1f33f";
+    font-size: 4rem;
+
+}
+
+nav ul {
+    padding-left: 0;
+    width: calc(45% + 20px);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+h2::before {
+    content: "\1f33f";
+    font-size: 2rem;
+
+}
+
+h3::before {
+    content: "\1f33f";
+    font-size: 1.5rem;
+
+}
+
+.signif-design li {
+    list-style-type: "\1f33f";
+    text-indent: .5rem;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(80% - 40px);
+    margin: 0 auto;
+
+}
+
+main {
+    width: calc(50% - 32px);
+    margin: 0 auto;
+
+}
+
+img {
+    max-width: 90%;
+
+}
+
+footer {
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 .site-intro {
