@@ -20,7 +20,7 @@ h4 {
     color: #4cbb17;
 }
 
-#nursery {
+.nursery {
     animation: fadeImg ease 4s;
 }
 
@@ -28,6 +28,12 @@ p {
     animation: forwards 3s;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
 nav {
     list-style-type: none;
     align-items: center;
@@ -59,7 +65,6 @@ body {
     width: 1100px;
     height: 680px;
     margin: 0 auto;
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10px;
@@ -83,3 +88,28 @@ body {
         background-color: #4cbb17;
     }
     
+    a:link {
+        color:blue;
+    
+    }
+    
+    
+    a:visited{ 
+        color:blueviolet;
+    
+    
+    }
+    
+    a:hover {
+        color:darkolivegreen;
+    
+    }
+    
+    a:active {
+        color:darkblue;
+    
+    }
+    
+    a:focus {
+        color:aqua;
+    }
