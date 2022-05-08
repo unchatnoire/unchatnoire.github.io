@@ -34,6 +34,11 @@ header {
     flex-direction: column;
 
 }
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
 nav {
     list-style-type: none;
     align-items: center;
@@ -59,6 +64,12 @@ body {
  border-radius: 2rem;                   
  margin: 0, auto; 
 }     
+
+.products li::before {
+    content: "\1f337";
+    font-size: 1rem;
+
+} 
 
 .parent {
     display: grid;    
@@ -87,6 +98,10 @@ body {
         grid-area: 2 / 2 / 3 / 3; 
         background-color: #4cbb17;
     }
+
+    .suppliers {
+        list-style-type: none;
+    }
     
 
     footer {
@@ -96,30 +111,24 @@ body {
         
     
     }
-    
-    a:link {
-        color:blue;
-    
+
+    img.herbs {
+        width: 40%;
     }
 
-    
-    
-    a:visited{ 
-        color:blueviolet;
-    
-    
+    img.cat {
+        align-self: center;
     }
     
-    a:hover {
-        color:darkolivegreen;
-    
-    }
-    
-    a:active {
-        color:darkblue;
-    
-    }
-    
-    a:focus {
-        color:aqua;
-    }
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: #043927;
+
+}
+
+nav a:hover,
+nav a:active {
+    color: #9dc183;
+
+}
