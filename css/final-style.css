@@ -71,6 +71,35 @@ body {
 
 } 
 
+footer {
+    line-height: 70%;
+    font-weight: 400;
+    color: white;
+    
+
+}
+
+img.herbs {
+    width: 40%;
+}
+
+img.cat {
+    align-self: center;
+}
+
+nav a:link,
+nav a:visited {
+text-decoration: none;
+color: #043927;
+
+}
+
+nav a:hover,
+nav a:active {
+color: #9dc183;
+
+}
+
 .parent {
     display: grid;    
     width: 1100px;
@@ -101,34 +130,6 @@ body {
 
     .suppliers {
         list-style-type: none;
-    }
-    
-
-    footer {
-        line-height: 70%;
-        font-weight: 400;
-        color: white;
-        
-    
-    }
-
-    img.herbs {
-        width: 40%;
-    }
-
-    img.cat {
-        align-self: center;
-    }
-    
-nav a:link,
-nav a:visited {
-    text-decoration: none;
-    color: #043927;
-
 }
+   
 
-nav a:hover,
-nav a:active {
-    color: #9dc183;
-
-}
