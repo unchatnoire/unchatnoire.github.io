@@ -22,11 +22,27 @@ h4 {
 
 img.nursery {
     animation: fadeImg ease 4s;
+
+
 }
+
+@keyframes fadeImg {
+    0% {
+        opacity:0;
+
+    }
+
+    100% {
+        opacity:1;
+    }
+
+}
+
 
 .intro {
     animation: forwards 3s;
 }
+
 
 header {
     display: flex;
@@ -37,7 +53,7 @@ header {
 
 nav li {
     display: inline;
-    list-style-type: none;
+    list-style: none;
 }
 nav {
     list-style-type: none;
