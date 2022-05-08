@@ -88,10 +88,20 @@ body {
         background-color: #4cbb17;
     }
     
+
+    footer {
+        line-height: 70%;
+        font-weight: 400;
+        color: white;
+        
+    
+    }
+    
     a:link {
         color:blue;
     
     }
+
     
     
     a:visited{ 
