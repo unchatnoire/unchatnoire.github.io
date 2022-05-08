@@ -24,7 +24,7 @@ h4 {
     animation: fadeImg ease 4s;
 }
 
-p {
+.intro {
     animation: forwards 3s;
 }
 
